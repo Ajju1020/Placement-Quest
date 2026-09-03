@@ -1,0 +1,39 @@
+{
+  "packageId": "com.questhire.app3d",
+  "host": "quest-hire.preview.emergentagent.com",
+  "name": "Placement Quest 3D",
+  "launcherName": "Quest 3D",
+  "display": "standalone",
+  "orientation": "landscape",
+  "themeColor": "#0B0E17",
+  "navigationColor": "#0B0E17",
+  "backgroundColor": "#0B0E17",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://quest-hire.preview.emergentagent.com/icon-512.png",
+  "maskableIconUrl": "https://quest-hire.preview.emergentagent.com/icon-512-maskable.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "questhire"
+  },
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap",
+  "webManifestUrl": "https://quest-hire.preview.emergentagent.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://quest-hire.preview.emergentagent.com/",
+  "minSdkVersion": 21
+}
